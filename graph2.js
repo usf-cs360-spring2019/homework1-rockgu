@@ -80,4 +80,4 @@ var margin = {top: 60, right: 20, bottom: 60, left: 200},
        svg.append("text")
          .attr("transform","translate(" + (width/2) + " ," + (margin.top-70) + ")")
          .style("text-anchor", "middle")
-         .text("Incident Time");
+         .text("supervisor district");
