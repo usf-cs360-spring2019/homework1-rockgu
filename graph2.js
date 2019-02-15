@@ -22,7 +22,7 @@ var margin = {top: 60, right: 20, bottom: 60, left: 200},
               .ticks(8)
       }
       // get the data
-      d3.csv("book1.csv").then(function(data) {
+      d3.csv("Book1.csv").then(function(data) {
         console.log(data);
         data.forEach(function(d) {
           d.Count = +d.Count;
